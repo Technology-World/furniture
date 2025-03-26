@@ -5,7 +5,7 @@ import { Link } from "react-router";
 function Slide1() {
   return (
     <div className="w-full lg:w-[1440px] mx-auto bg-white">
-      <div className="grid grid-cols-1 lg:grid-cols-2 relative">
+      <div className="w-full grid grid-cols-1 lg:grid-cols-2 relative">
         <div className=" w-full">
           <nav className="w-full bg-[#010031] p-2 md:bg-transparent fixed md:absolute top-0 left-0 md:left-10 md:top-10">
             <Nav />

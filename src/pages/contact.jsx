@@ -26,14 +26,14 @@ function Contact() {
             <div className="nav w-full lg:w-[1440px]">
                 <Nav />
             </div>
-            <section className=" bg-white px-10">
-                <div className="w-full text-center p-4">
+            <section className=" bg-white p-5 lg:px-20">
+                <div className="w-full text-center">
                     <h1 className="text-3xl font-extrabold md:mb-5 uppercase">Contact Us</h1>
                 </div>
                 <div className="w-full flex flex-col flex-wrap gap-5">
                     <div className="w-full flex flex-col justify-between gap-20 md:flex-row items-center">
                         <div className="flex flex-col gap-10 w-full md:w-[50%]">
-                            <div className="w-full md:w-[500px]">
+                            <div className="w-full lg:w-[500px] flex flex-col flex-wrap">
                                 <h3 className="font-bold text-xl mb-2">We'd Love to Hear from You </h3>
                                 <p>At [Your Business Name], customer satisfaction is our priority. Whether you have questions, need assistance, or just want to say hello, we're here to help!
                                 </p>

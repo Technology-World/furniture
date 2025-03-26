@@ -12,7 +12,7 @@ function Footer() {
               className=" w-full h-[250px] object-cover"
             />
           </div>
-          <div className="w-full md:w-[550px] py-10 px-3 md:mx-auto">
+          <div className="w-full md:w-[550px] lg:py-10 px-3 md:mx-auto">
             <h2 className="tracking-[5px] font-bold mb-3 uppercase ">
               About our furniture
             </h2>

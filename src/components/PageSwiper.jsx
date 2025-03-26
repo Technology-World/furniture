@@ -44,7 +44,8 @@ const PageSwiper = () => {
   }, [activeIndex, navigate]);
 
   return (
-    <div className="relative w-full md:mx-auto">
+    <div className="w-full lg:w-[1440px] mx-auto bg-white">
+      <div className="relative">
       {isSmallScreen ? (
         // ✅ Static layout for small screens
         <div className="grid grid-cols-1 gap-6 mt-6">
@@ -80,7 +81,7 @@ const PageSwiper = () => {
 
       {/* Navigation Buttons (only for large screens) */}
       {!isSmallScreen && (
-        <div className="flex items-center absolute top-100 lg:right-170 z-10">
+        <div className="flex items-center absolute bottom-106 lg:bottom-0 lg:right-152 z-10">
           <button
             onClick={() => swiperRef.current.slidePrev()}
             className="bg-black text-white p-4 rounded-full hover:bg-neutral-800 transition cursor-pointer"
@@ -94,7 +95,7 @@ const PageSwiper = () => {
             <HiChevronRight className="text-2xl" />
           </button>
         </div>
-      )}
+      )} </div>
 
       <Footer />
     </div>

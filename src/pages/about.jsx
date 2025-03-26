@@ -7,13 +7,13 @@ function About() {
                 <Nav />
             </div>
             <section className="w-full flex flex-col bg-white flex-wrap">
-                <div className="w-full lg:h-[400px] bg-[url(./assets/images/bg-img3.jpg)] bg-no-repeat bg-cover bg-center">
+                <div className="w-full lg:h-[400px] bg-[url(./assets/images/bg-img.jpg)] md:bg-[url(./assets/images/bg-img2.jpg)] lg:bg-[url(./assets/images/bg-img3.jpg)] bg-no-repeat bg-cover bg-center">
                     <div className="w-full lg:w-[500px] text-white p-5 lg:p-20">
                         <h1 className="text-2xl py-2 font-bold">About Us</h1>
                         <p>we believe that furniture is more than just a functional necessity - it's an expression of style, personality, and comfort. Our passion lies in creating high-quality, stylish, and durable furniture that transforms houses into homes and spaces into experiences.</p>
                     </div>
                 </div>
-                <div className="w-full flex flex-col p-5 lg:p-20">
+                <div className="w-full flex flex-col p-5 lg:px-20">
                     <div className="w-full flex flex-col gap-10 justify-between md:flex-row">
                         <article className="w-full lg:w-[550px]">
                             <h1 className="text-2xl py-2 font-bold">Who We Are: <span className="text-xl font-medium">Passionate Creators of Timeless Furniture</span></h1>
