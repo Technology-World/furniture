@@ -31,7 +31,7 @@ function Shop() {
   }, []);
 
   return (
-    <div className="w-full lg:w-[1440px] mx-auto mt-20">
+    <div className="w-full lg:w-[1440px] mx-auto mt-20 text-md">
       <div className="nav w-full lg:w-[1440px]">
         <Nav />
       </div>

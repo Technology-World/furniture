@@ -22,38 +22,38 @@ function Contact() {
         setFormData({ name: "", email: "", message: "" });
     };
     return (
-        <div className="w-full lg:w-[1440px] mx-auto mt-14">
+        <div className="w-full lg:w-[1440px] mx-auto mt-14 text-md">
             <div className="nav w-full lg:w-[1440px]">
                 <Nav />
             </div>
             <section className=" bg-white p-5 lg:px-20">
                 <div className="w-full text-center">
-                    <h1 className="text-3xl font-extrabold md:mb-5 uppercase">Contact Us</h1>
+                    <h1 className="text-3xl font-extrabold mb-8 md:mb-5 uppercase">Contact Us</h1>
                 </div>
                 <div className="w-full flex flex-col flex-wrap gap-5">
                     <div className="w-full flex flex-col justify-between gap-20 md:flex-row items-center">
                         <div className="flex flex-col gap-10 w-full md:w-[50%]">
                             <div className="w-full lg:w-[500px] flex flex-col flex-wrap">
-                                <h3 className="font-bold text-xl mb-2">We'd Love to Hear from You </h3>
+                                <h2 className="font-bold text-xl mb-2">We'd Love to Hear from You </h2>
                                 <p>At [Your Business Name], customer satisfaction is our priority. Whether you have questions, need assistance, or just want to say hello, we're here to help!
                                 </p>
                             </div>
 
                             <div>
-                                <h3 className="text-xl font-bold mb-2">📍 Our Location</h3>
+                                <h2 className="text-xl font-bold mb-2">📍 Our Location</h2>
                                 <p>🏢 Address: Lagos, Nigeria</p>
                                 <p>📞 Phone: +2348075327786 || +2348111341137</p>
                                 <p>✉️ Email: <a href="#" target="_blank" className="text-blue-600">sodeeqadeosun@gmail.com</a></p>
                             </div>
                             <div>
-                                <h3 className="text-xl font-bold mb-2">Business Hours</h3>
+                                <h2 className="text-xl font-bold mb-2">Business Hours</h2>
                                 <p>🕒 Monday - Friday: 9 AM - 6 PM</p>
                                 <p>🕒 Saturday: 10 AM - 4 PM</p>
                                 <p>🚫 Sunday: Closed</p>
                             </div>
                         </div>
                         <div className="w-full md:w-[50%]">
-                            <h3 className="text-center font-bold text-xl mb-2"> Get in Touch</h3>
+                            <h2 className="text-center font-bold text-xl mb-2"> Get in Touch</h2>
                             <p>Fill out the form below and we'll get back to you as soon as possible!</p>
                             <form className="mt-8 space-y-4" onSubmit={handleSubmit}>
                                 <div className="flex flex-col gap-2">
@@ -92,8 +92,8 @@ function Contact() {
                             </form>
                         </div>
                     </div>
-                    <div className="w-full flex flex-col justify-center md:items-center gap-5 my-5 md:shadow-xl md:shadow-blue-100 py-3">
-                        <h3>Follow us on Social Media!</h3>
+                    <div className="w-full flex flex-col justify-center md:items-center gap-5 md:shadow-xl md:shadow-blue-100 py-3">
+                        <h2 className="text-xl font-bold mb-2">Follow us on Social Media!</h2>
                         <div className="flex flex-col md:flex-row gap-4 text-2xl">
                             <Link to="#"><SiFacebook /></Link>
                             <Link to="#"><FaXTwitter /></Link>

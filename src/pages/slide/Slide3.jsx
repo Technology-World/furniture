@@ -4,7 +4,7 @@ import { HiArrowRight } from "react-icons/hi";
 import { Link } from "react-router";
 const Slide3 = () => {
   return (
-    <div className="w-full lg:w-[1440px] mx-auto bg-white">
+    <div className="w-full lg:w-[1440px] mx-auto bg-white text-md">
       <div className="grid grid-cols-1 lg:grid-cols-2 relative">
         <div className=" w-full">
           <nav className="w-full bg-[#010031] p-2 md:bg-transparent fixed md:absolute top-0 left-0 md:left-10 md:top-10">
@@ -18,9 +18,9 @@ const Slide3 = () => {
         </div>
         <div className="flex flex-col gap-5 my-15">
           <div className="w-full flex flex-col gap-10 px-2 md:mx-auto md:w-[450px] ">
-            <h2 className="font-bold text-4xl">
+            <h1 className="font-bold text-4xl">
               Manufactured with the best materials
-            </h2>
+            </h1>
             <p>
               Our modern furniture store provide a high level of quality. Our
               company has invested in advanced technology to ensure that every

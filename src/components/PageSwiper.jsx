@@ -44,7 +44,7 @@ const PageSwiper = () => {
   }, [activeIndex, navigate]);
 
   return (
-    <div className="w-full lg:w-[1440px] mx-auto bg-white">
+    <div className="w-full lg:w-[1440px] mx-auto bg-white text-md">
       <div className="relative">
       {isSmallScreen ? (
         // ✅ Static layout for small screens

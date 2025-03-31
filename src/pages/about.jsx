@@ -2,7 +2,7 @@ import Nav from "../components/nav";
 import Footer from "../components/footer";
 function About() {
     return (
-        <div className="w-full lg:w-[1440px] mx-auto mt-14">
+        <div className="w-full lg:w-[1440px] mx-auto mt-14 text-md">
             <div className="nav w-full lg:w-[1440px]">
                 <Nav />
             </div>
@@ -14,9 +14,9 @@ function About() {
                     </div>
                 </div>
                 <div className="w-full flex flex-col p-5 lg:px-20">
-                    <div className="w-full flex flex-col gap-10 justify-between md:flex-row">
+                    <div className="w-full flex flex-col gap-8 justify-between md:flex-row">
                         <article className="w-full lg:w-[550px]">
-                            <h1 className="text-2xl py-2 font-bold">Who We Are: <span className="text-xl font-medium">Passionate Creators of Timeless Furniture</span></h1>
+                            <h2 className="text-2xl py-2 font-bold">Who We Are: <span className="text-lg font-medium">Passionate Creators of Timeless Furniture</span></h2>
                             <p>We are more than just a furniture brand - we are a team of passionate designers, skilled artisans, and visionaries dedicated to creating furniture that blends <b>beauty</b>, <b>functionality</b>, and <b>durability</b>.</p>
                             <p className="py-2">With years of experience in the industry, we have built a reputation for craftsmanship, innovation, and customer satisfaction. Our mission is simple: to transform spaces with furniture that tells a story - a story of elegance, comfort, and quality.</p>
                             <div className="p-2 lg:p-5">
@@ -31,7 +31,7 @@ function About() {
                         </article>
                         <article className="w-full lg:w-[650px] lg:mt-20">
                             <div>
-                                <h1 className="text-2xl py-2 font-bold">Why Choose Us</h1>
+                                <h2 className="text-2xl py-2 font-bold">Why Choose Us</h2>
                                 <div>
                                     <p>✅ Quality Craftsmanship - Every piece is carefully crafted by skilled artisans with attention to detail.
                                     </p>
@@ -41,14 +41,14 @@ function About() {
                                     <p className="py-2">Whether you're looking for a statement piece for your living room, a functional workspace setup, or a complete home makeover, we are here to turn your ideas into reality.</p>
                                 </div>
                             </div>
-                            <div>
-                                <h3 className="text-xl font-bold">Our Mission</h3>
-                                <p>To provide exceptional furniture solutions that combine quality, functionality, and elegance, making every space more inviting and inspiring.</p>
+                            <div className="p-2 lg:p-5">
+                                <h3 className="text-xl font-bold ">Our Mission</h3>
+                                <p>🔹 To provide exceptional furniture solutions that combine quality, functionality, and elegance, making every space more inviting and inspiring.</p>
                             </div>
                         </article>
                     </div>
-                    <div className="w-full lg:py-10">
-                        <h1 className="text-2xl py-2 font-bold">What We Do</h1>
+                    <div className="w-full lg:py-10 pt-8">
+                        <h2 className="text-2xl py-2 font-bold">What We Do</h2>
                         <div>
                             <p>We specialize in designing and crafting high-quality, stylish, and durable furniture that transforms any space into a masterpiece. Our passion for fine craftsmanship and innovative design allows us to create functional, aesthetic, and long-lasting pieces that cater to both residential and commercial needs.
                             </p>

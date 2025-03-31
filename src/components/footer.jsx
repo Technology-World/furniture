@@ -2,7 +2,7 @@ import dark from "../assets/images/about-dark.jpg";
 import light from "../assets/images/about-light.jpg";
 function Footer() {
   return (
-    <footer className="w-full lg:w-[1440px] mx-auto bg-white relative">
+    <footer className="w-full lg:w-[1440px] mx-auto bg-white relative text-md">
       <div className="w-full flex flex-col static bottom-10 z-10">
         <div className="w-full flex flex-col md:flex-row ">
           <div>
@@ -12,8 +12,8 @@ function Footer() {
               className=" w-full h-[250px] object-cover"
             />
           </div>
-          <div className="w-full md:w-[550px] lg:py-10 px-3 md:mx-auto">
-            <h2 className="tracking-[5px] font-bold mb-3 uppercase ">
+          <div className="flex flex-col w-full md:w-[550px] px-3 md:mx-auto py-5 justify-center">
+            <h2 className="tracking-[5px] font-bold mb-2 uppercase ">
               About our furniture
             </h2>
             <p>

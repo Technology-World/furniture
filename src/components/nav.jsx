@@ -3,7 +3,7 @@ import { Link } from "react-router";
 const Nav = () => {
   return (
     <nav className="bg-transparent">
-      <div className="w-full flex gap-3 md:gap-7 text-white items-center">
+      <div className="w-full flex gap-3 md:gap-7 text-white items-center text-md">
         <h1 className="text-xl lg:mr-5">TechWorld</h1>
         <Link to="/" className=" hover:border-b">
           home
