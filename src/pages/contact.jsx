@@ -35,7 +35,7 @@ function Contact() {
                         <div className="flex flex-col gap-10 w-full md:w-[50%]">
                             <div className="w-full lg:w-[500px] flex flex-col flex-wrap">
                                 <h2 className="text-2xl py-2 font-bold">We'd Love to Hear from You </h2>
-                                <p>At [Your Business Name], customer satisfaction is our priority. Whether you have questions, need assistance, or just want to say hello, we're here to help!
+                                <p>At <b>Tech World</b>, customer satisfaction is our priority. Whether you have questions, need assistance, or just want to say hello, we're here to help!
                                 </p>
                             </div>
 
