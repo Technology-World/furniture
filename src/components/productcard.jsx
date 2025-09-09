@@ -24,7 +24,7 @@ function ProductCard(props) {
 
         <div className="flex items-center space-x-4 justify-between">
           <button className="bg-green-700 hover:bg-green-800 text-white font-medium px-4 py-2.5 text-sm rounded-full duration-150 cursor-pointer">
-            Add to cart
+            View details
           </button>
           <p className="text-md font-medium">${props.price}</p>
         </div>
